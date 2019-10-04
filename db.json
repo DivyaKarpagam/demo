@@ -1,14 +1,28 @@
 {
-  "posts": [
-    { "id": 1, "title": "Post 1" },
-    { "id": 2, "title": "Post 2" },
-    { "id": 3, "title": "Post 3" }
-  ],
-  "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 },
-    { "id": 2, "body": "some comment", "postId": 1 }
-  ],
-  "profile": {
-    "name": "typicode"
-  }
+   "users":[
+      {
+         "isAuthenticated":false,
+         "id":"1",
+         "userName":"divya",
+         "userPassword":"divya",
+         "userEmail":null,
+         "userRole":"admin"
+      },
+      {
+         "isAuthenticated":true,
+         "id":"2",
+         "userName":"dk",
+         "userPassword":"dk@123",
+         "userEmail":"Not Set",
+         "userRole":"store-user"
+      },
+      {
+         "isAuthenticated":true,
+         "id":"3",
+         "userName":"admin",
+         "userPassword":"admin",
+         "userEmail":"Not Set",
+         "userRole":"retailer"
+      }
+   ]
 }
